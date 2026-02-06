@@ -7,6 +7,8 @@
 
 A comprehensive machine learning pipeline for depression prediction using **CatBoost** with **Optuna** hyperparameter optimization and extensive feature engineering. This project demonstrates best practices in handling categorical data, missing values, and model optimization for Kaggle competitions.
 
+See and run this notebook on [Kaggle](https://www.kaggle.com/code/harshg97/catboost-optuna-tuning-with-feature-engineering/output?scriptVersionId=296143083).
+
 ## 📊 Project Overview
 
 This notebook tackles a binary classification problem (depression prediction) using a sophisticated ML pipeline that includes:
