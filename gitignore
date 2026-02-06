@@ -60,12 +60,6 @@ Thumbs.db
 # Logs
 *.log
 
-# Output files
-outputs/*.png
-outputs/*.jpg
-outputs/*.pdf
-outputs/*.csv
-
 # Keep only structure
 !outputs/.gitkeep
 !data/.gitkeep
