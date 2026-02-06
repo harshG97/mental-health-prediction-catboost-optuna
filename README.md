@@ -58,12 +58,6 @@ This notebook tackles a binary classification problem (depression prediction) us
 - 🚀 **Stratified K-Fold**: 5-fold CV maintaining class distribution
 - 🚀 **Ensemble**: Averaging predictions across folds
 
-### Code Quality
-- 📝 Comprehensive markdown documentation
-- 📝 Reusable functions for feature processing
-- 📝 Clear separation of train/test processing
-- 📝 Educational explanations for each step
-
 ## 🛠️ Installation
 
 ### Prerequisites
