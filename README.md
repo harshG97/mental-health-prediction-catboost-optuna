@@ -38,7 +38,7 @@ This notebook tackles a binary classification problem (depression prediction) us
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
+## Features
 
 ### Data Processing
 - ✅ Intelligent merging of multiple data sources
@@ -58,7 +58,7 @@ This notebook tackles a binary classification problem (depression prediction) us
 - 🚀 **Stratified K-Fold**: 5-fold CV maintaining class distribution
 - 🚀 **Ensemble**: Averaging predictions across folds
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 jupyter notebook catboost-optuna-tuning-enhanced.ipynb
 ```
 
-## 💻 Usage
+## Usage
 
 ### Basic Workflow
 
@@ -133,7 +133,7 @@ Toggle hyperparameter retuning:
 RETUNE_CATBOOST = False  # Set to True to re-run Optuna optimization
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 depression-prediction-catboost/
@@ -153,7 +153,7 @@ depression-prediction-catboost/
     └── feature_importance.png
 ```
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Integration
 
@@ -231,7 +231,7 @@ df['Age_bin'] = pd.qcut(df['Age'], 15, duplicates='drop')
 
 **Rationale**: Depression-age relationship is non-linear. Different life stages (teens, young adults, middle-age, seniors) have different risk profiles. Binning lets the model learn stage-specific patterns.
 
-## 🤖 Model Details
+## Model Details
 
 ### Why CatBoost?
 
@@ -276,7 +276,7 @@ for fold, (train_idx, val_idx) in enumerate(skf.split(X_train, y_train)):
     # Store predictions for ensemble
 ```
 
-## 📈 Results
+## Results
 
 ### Feature Importance Top 10
 
@@ -314,7 +314,7 @@ Based on CatBoost's feature importance analysis:
 - ❌ Remove in production (won't generalize)
 - 🔍 Always validate feature importance makes domain sense
 
-## 🎓 Key Learnings
+## Key Learnings
 
 ### 1. Feature Engineering Beats Complex Models
 Thoughtful feature engineering (ratios, consolidation, binning) provided more value than hyperparameter tuning alone.
@@ -346,7 +346,7 @@ Unexpected feature importance (like Name) can reveal:
 - Reusable functions for feature processing
 - Systematic approach > manual trial-and-error
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] **Ensemble with other models**: XGBoost, LightGBM, Neural Networks
 - [ ] **Advanced feature engineering**: Polynomial features, clustering-based features
@@ -355,7 +355,7 @@ Unexpected feature importance (like Name) can reveal:
 - [ ] **Explainability**: SHAP values for model interpretation
 - [ ] **Production pipeline**: MLflow for experiment tracking, model versioning
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -373,7 +373,7 @@ Contributions are welcome! Here's how you can help:
 - Production deployment code
 - Unit tests and validation scripts
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -384,14 +384,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Optuna Developers**: For making hyperparameter optimization accessible
 - **Open Source Community**: For the amazing ML tools and libraries
 
-## 📧 Contact
+## Contact
 
 Have questions or suggestions? Feel free to:
 - Open an issue
 - Submit a pull request
 - Reach out via [your contact method]
 
-## 📚 References
+## References
 
 - [CatBoost Documentation](https://catboost.ai/docs/)
 - [Optuna Documentation](https://optuna.readthedocs.io/)
