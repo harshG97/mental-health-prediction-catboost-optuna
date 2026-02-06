@@ -365,31 +365,9 @@ Contributions are welcome! Here's how you can help:
 4. **Push to the branch** (`git push origin feature/AmazingFeature`)
 5. **Open a Pull Request**
 
-### Areas for Contribution
-- Alternative feature engineering approaches
-- Different model architectures (XGBoost, LightGBM, Neural Networks)
-- Improved hyperparameter search strategies
-- Better handling of the Name column mystery
-- Production deployment code
-- Unit tests and validation scripts
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Kaggle Community**: For the Playground Series competition and datasets
-- **CatBoost Team**: For an excellent gradient boosting library
-- **Optuna Developers**: For making hyperparameter optimization accessible
-- **Open Source Community**: For the amazing ML tools and libraries
-
-## Contact
-
-Have questions or suggestions? Feel free to:
-- Open an issue
-- Submit a pull request
-- Reach out via [your contact method]
 
 ## References
 
